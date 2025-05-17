@@ -8,6 +8,16 @@ importers:
 
   .: {}
 
+  packages/api:
+    dependencies:
+      hono:
+        specifier: ^4.7.9
+        version: 4.7.9
+    devDependencies:
+      wrangler:
+        specifier: ^4.4.0
+        version: 4.15.2
+
   packages/web:
     dependencies:
       '@opennextjs/cloudflare':
@@ -2485,6 +2495,10 @@ packages:
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
+
+  hono@4.7.9:
+    resolution: {integrity: sha512-/EsCoR5h7N4yu01TDu9GMCCJa6ZLk5ZJIWFFGNawAXmd1Tp53+Wir4xm0D2X19bbykWUlzQG0+BvPAji6p9E8Q==}
+    engines: {node: '>=16.9.0'}
 
   http-errors@2.0.0:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
@@ -6858,6 +6872,8 @@ snapshots:
   hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
+
+  hono@4.7.9: {}
 
   http-errors@2.0.0:
     dependencies:
