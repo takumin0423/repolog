@@ -14,7 +14,7 @@
   "devDependencies": {
     "drizzle-kit": "^0.31.1",
     "supabase": "^2.23.4",
-    "wrangler": "^4.16.1"
+    "wrangler": "^4.17.0"
   },
   "packageManager": "pnpm@10.11.0"
 }
